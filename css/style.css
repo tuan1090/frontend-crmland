@@ -2692,7 +2692,7 @@ p {
 .blog .content h4 {
   line-height: 1.2;
 }
-
+.blog .content img{max-width: 100%}
 .blog .content .title {
   font-size: 20px;
   -webkit-transition: all 0.5s ease;
@@ -2742,6 +2742,12 @@ p {
 
 .blog:hover .author {
   opacity: 1;
+}
+
+.sidebar {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 100px;
 }
 
 .sidebar .widget .widget-search form {
