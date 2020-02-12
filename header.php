@@ -148,11 +148,11 @@
                                         <i class="mdi mdi-chevron-right"></i> Thư viện giao diện
                                     </a>
                                     <ul class="submenu">
-                                        <li><a href="page-profile.html">Landingpage dự án</a></li>
-                                        <li><a href="page-profile-edit.html">Website tổng hợp dự án</a></li>
-                                        <li><a href="page-invoice.html">Website sàn giao dịch</a></li>
-                                        <li><a href="page-invoice.html">Website chủ đầu tư</a></li>
-                                        <li><a href="page-invoice.html">Website tin tức</a></li>
+                                        <li><a href="list-website.php">Landingpage dự án</a></li>
+                                        <li><a href="list-website.php">Website tổng hợp dự án</a></li>
+                                        <li><a href="list-website.php">Website sàn giao dịch</a></li>
+                                        <li><a href="list-website.php">Website chủ đầu tư</a></li>
+                                        <li><a href="list-website.php">Website tin tức</a></li>
                                     </ul>  
                                 </li>
                                 <li>
