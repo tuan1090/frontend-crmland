@@ -106,6 +106,55 @@
                     $("#ca-nhan").css("display", "none");
                     $("#doanh-nghiep").css("display", "block");
                 });
+
+                $("#button-price-email-marketing").click(function() {
+                    $("#price-email-marketing").show();
+                    $("#price-sms-marketing").hide();
+                    $("#price-ads-remove").hide();
+                    $("#price-automation").hide();
+                    $("#price-brandname-create").hide();
+                    $("#price-advance-services").hide();
+                });
+                $("#button-price-sms-marketing").click(function() {
+                    $("#price-email-marketing").hide();
+                    $("#price-sms-marketing").show();
+                    $("#price-ads-remove").hide();
+                    $("#price-automation").hide();
+                    $("#price-brandname-create").hide();
+                    $("#price-advance-services").hide();
+                });
+                $("#button-price-ads-remove").click(function() {
+                    $("#price-email-marketing").hide();
+                    $("#price-sms-marketing").hide();
+                    $("#price-ads-remove").show();
+                    $("#price-automation").hide();
+                    $("#price-brandname-create").hide();
+                    $("#price-advance-services").hide();
+                });
+                $("#button-price-automation").click(function() {
+                    $("#price-email-marketing").hide();
+                    $("#price-sms-marketing").hide();
+                    $("#price-ads-remove").hide();
+                    $("#price-automation").show();
+                    $("#price-brandname-create").hide();
+                    $("#price-advance-services").hide();
+                });
+                $("#button-price-brandname-create").click(function() {
+                    $("#price-email-marketing").hide();
+                    $("#price-sms-marketing").hide();
+                    $("#price-ads-remove").hide();
+                    $("#price-automation").hide();
+                    $("#price-brandname-create").show();
+                    $("#price-advance-services").hide();
+                });
+                $("#button-price-advance-services").click(function() {
+                    $("#price-email-marketing").hide();
+                    $("#price-sms-marketing").hide();
+                    $("#price-ads-remove").hide();
+                    $("#price-automation").hide();
+                    $("#price-brandname-create").hide();
+                    $("#price-advance-services").show();
+                });
             });
         </script>
     </body>

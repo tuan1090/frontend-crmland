@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		#musicinfo {
+    display: none;
+}
+#aboutinfo {
+    display: none;
+}
+	</style>
+</head>
+<body>
+<div id="header">
+    <div id="music"><a href="#">Music</a></div>             
+    <div id="about"><a href="#">About</a></div>
+    <div id="contact"><a href="#">Contact</a></div>
+</div>
+
+<div id="musicinfo">
+    <p>Music info div</p>
+</div>
+<div id="aboutinfo">
+    <p>About info div</p>
+</div>
+
+<script src="js/jquery.min.js"></script>
+<script type="text/javascript">
+	$(document).ready(
+    function() {
+        $("#music").click(function() {
+            $("#musicinfo").fadeToggle();
+            $("#aboutinfo").hide();
+        });
+        $("#about").click(function() {
+            $("#aboutinfo").fadeToggle();
+            $("#musicinfo").hide();
+        });
+    });
+</script>
+
+</body>
+</html>
